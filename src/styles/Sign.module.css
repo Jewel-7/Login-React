@@ -1,0 +1,16 @@
+.sign-div {
+  height: 70vh;
+  margin-left: 40vw;
+  border: 2px black solid;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  padding-left: 12vw;
+
+  background-size: 100vh;
+  background-image: url("https://images.pexels.com/photos/261621/pexels-photo-261621.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.sign-cont {
+  background-color: black;
+}

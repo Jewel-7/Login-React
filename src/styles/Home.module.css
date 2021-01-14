@@ -1,0 +1,29 @@
+.home-cont {
+  margin: 0;
+  padding: 0;
+  /* background: url("https://data.whicdn.com/images/340869740/original.gif")
+    repeat;
+  background-size: auto; */
+  height: 70vh;
+}
+.banner-img {
+  height: 70vh;
+  width: 98.85vw;
+}
+.home-div {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: 800;
+  font-family: sans-serif;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.4);
+  height: 30vh;
+  width: 30vw;
+
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white; */
+  text-align: center;
+}

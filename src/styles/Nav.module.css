@@ -1,0 +1,16 @@
+.nav-flex {
+  display: flex;
+  flex-direction: row;
+}
+.nav-title {
+  padding-left: 2vw;
+  text-decoration: none;
+  color: white;
+}
+.header-section {
+  height: 100px;
+  background-color: black;
+}
+.navigation {
+  margin-left: 75vw;
+}
