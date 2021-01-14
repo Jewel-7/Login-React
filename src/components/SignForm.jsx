@@ -1,13 +1,20 @@
 import React, { Component } from "react";
+import styles from "../styles/Sign.module.css";
 
 class SignUpForm extends Component {
   render() {
     return (
       <div>
-        <h1>SignUp Form</h1>
+        <h1 className={styles["form-head"]}>SignUp Form</h1>
         <div>
           <div>
-            <input type="text" name="name" required placeholder="Name"></input>
+            <input
+              type="text"
+              name="name"
+              required
+              placeholder="Name"
+              className={styles["form-name"]}
+            ></input>
           </div>
           <br />
           <div>
@@ -16,6 +23,7 @@ class SignUpForm extends Component {
               name="email"
               required
               placeholder="email"
+              className={styles["form-name"]}
             ></input>
           </div>
           <br />
@@ -25,6 +33,7 @@ class SignUpForm extends Component {
               name="password"
               required
               placeholder="password"
+              className={styles["form-name"]}
             ></input>
           </div>
           <br />

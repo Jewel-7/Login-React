@@ -44,7 +44,7 @@ class SignUp extends Component {
         <div className={styles["sign-div"]}>
           <form onSubmit={this.signupUser}>
             <SignUpForm />
-            <div>
+            <div className={styles["form-but"]}>
               <button type="submit" value="signUp">
                 Sign Up
               </button>
@@ -52,7 +52,7 @@ class SignUp extends Component {
                 Reset
               </button>
               <Link to="/login">
-                <button>Login</button>
+                <button className={styles["form-but1"]}>Login</button>
               </Link>
             </div>
           </form>

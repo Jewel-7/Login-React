@@ -14,3 +14,28 @@
 .navigation {
   margin-left: 75vw;
 }
+@media (max-width: 1200px) {
+  .navigation {
+    margin-left: 50vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .navigation {
+    margin-left: 30vw;
+  }
+}
+
+@media (max-width: 540px) {
+  .navigation {
+    margin-left: 50vw;
+  }
+}
+@media (max-width: 280px) {
+  .navigation {
+    margin-left: 30vw;
+  }
+  .header-section {
+    width: 100vw;
+  }
+}

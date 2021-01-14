@@ -1,17 +1,19 @@
 import React, { Component } from "react";
+import styles from "../styles/Sign.module.css";
 
 class LoginForm extends Component {
   render() {
     return (
       <div>
         <div>
-          <h1>Login Form</h1>
+          <h1 className={styles["form-head"]}>Login Form</h1>
           <div>
             <div>
               <input
                 type="text"
                 name="email"
                 placeholder="email"
+                className={styles["form-name"]}
                 required
               ></input>
             </div>
@@ -21,6 +23,7 @@ class LoginForm extends Component {
                 type="password"
                 name="password"
                 placeholder="password"
+                className={styles["form-name"]}
                 required
               ></input>
             </div>

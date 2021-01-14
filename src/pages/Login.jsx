@@ -49,16 +49,16 @@ class Login extends Component {
             <div className={styles["sign-div"]}>
               <form onSubmit={this.login}>
                 <LoginForm />
-                <div>
+                <div className={styles["form-but"]}>
                   <button type="submit" value="submit">
                     Login
                   </button>
                   <button type="reset" value="clear">
                     Reset
                   </button>
-                  <h2>Didnt sign up?</h2>
+                  <h2 className={styles["form-head"]}>Didnt sign up?</h2>
                   <Link to="/signup">
-                    <button>Signup</button>
+                    <button className={styles["form-but"]}>Signup</button>
                   </Link>
                 </div>
               </form>

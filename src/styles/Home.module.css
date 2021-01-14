@@ -27,3 +27,20 @@
   -webkit-text-stroke-color: white; */
   text-align: center;
 }
+@media (max-width: 475px) {
+  .home-div {
+    height: 40vh;
+  }
+}
+@media (max-width: 350px) {
+  .home-div {
+    height: 50vh;
+    top: 300px;
+  }
+}
+@media (max-width: 280px) {
+  .home-cont {
+    /* width: 100vw; */
+    margin-left: 0.7vw;
+  }
+}

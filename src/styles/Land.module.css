@@ -1,0 +1,34 @@
+.land-cont {
+  margin: 0;
+  padding: 0;
+  /* background: url("https://data.whicdn.com/images/340869740/original.gif")
+    repeat;
+  background-size: auto; */
+  height: 70vh;
+  background-size: contain;
+  background-image: url("https://lh3.googleusercontent.com/proxy/5qOEh6tvljvyKJxbEJU-HDaxLvv_cdPbVp5TC_QabNoXFRF2lAz73zvXQd4QWdSbd019i3CsvlQey-0KMRAwcwRbWnz7t8c");
+}
+.land-head {
+  text-align: center;
+}
+.land-para {
+  text-align: center;
+}
+.land-button {
+  margin-left: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+@media (max-width: 950px) {
+  .land-head,
+  .land-para {
+    font-size: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .land-head,
+  .land-para {
+    font-size: 12px;
+  }
+}

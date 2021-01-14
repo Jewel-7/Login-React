@@ -14,3 +14,21 @@
 .sign-cont {
   background-color: black;
 }
+@media (max-width: 700px) {
+  .form-head {
+    font-size: 15px;
+    margin-right: 20vw;
+  }
+  .form-name {
+    width: 20vw;
+    margin-right: 20vw;
+  }
+  .form-but {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+  }
+  .form-but1 {
+    width: 20vw;
+  }
+}
