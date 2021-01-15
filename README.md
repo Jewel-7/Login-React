@@ -16,7 +16,7 @@ After cloning do npm install
 After installing all the dependencies do npm run start
 
 ## Live Link
-login-react-jpwghrhcg.vercel.app
+https://login-react-jpwghrhcg.vercel.app/
 
 
 
