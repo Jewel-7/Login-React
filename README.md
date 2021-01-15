@@ -1,3 +1,27 @@
+Simple Login-signUp Website Made by using React
+
+It consits of a Home Page With Navbar And footer
+
+Navbar consists navlink to navigate back to Sign in and Login Pages
+Signin pages are used To create A Account
+Using the same credentials we can Login
+After Login there is  Landing Page that occurs in which There is a Logout Option
+Data is fetched from a backend server that was hosted in heroku
+
+## To Run On Local Machine
+Go to terminal and type git clone https://github.com/Jewel-7/Blog-render-React.git
+
+After cloning do npm install
+
+After installing all the dependencies do npm run start
+
+## Live Link
+login-react-jpwghrhcg.vercel.app
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
