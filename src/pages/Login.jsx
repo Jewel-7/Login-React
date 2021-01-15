@@ -12,31 +12,37 @@ class Login extends Component {
   };
   login = (event) => {
     event.preventDefault();
-    // let form = event.target;
+
     let credentials = {
       email: event.target.email.value,
       password: event.target.password.value,
     };
-    fetch(url + "user/login", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      mode: "cors",
-      body: JSON.stringify(credentials),
-    })
-      .then((response) => {
-        return response.json();
+    var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    if (reg.test(event.target.email.value) == false) {
+      alert("Invalid Email Address");
+      return false;
+    } else {
+      fetch(url + "user/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        mode: "cors",
+        body: JSON.stringify(credentials),
       })
-      .then((data) => {
-        console.log(data);
-        if (data.data) {
-          this.setState({ status: "Successful" });
-          event.target.reset();
-        } else {
-          alert(` Please try to sign up first:)`);
-        }
-      });
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          console.log(data);
+          if (data.data) {
+            this.setState({ status: "Successful" });
+            event.target.reset();
+          } else {
+            alert(` Please try to sign up first:)`);
+          }
+        });
+    }
   };
   render() {
     console.log(this.state.status);

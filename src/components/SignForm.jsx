@@ -37,14 +37,14 @@ class SignUpForm extends Component {
             ></input>
           </div>
           <br />
-          {/* <div>
+          <div>
             <input
               type="password"
               name="confirmPassword"
-                required
+              required
               placeholder="confirm Password"
             ></input>
-          </div> */}
+          </div>
           <br />
         </div>
       </div>
