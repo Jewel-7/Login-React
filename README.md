@@ -9,7 +9,7 @@ After Login there is  Landing Page that occurs in which There is a Logout Option
 Data is fetched from a backend server that was hosted in heroku
 
 ## To Run On Local Machine
-Go to terminal and type git clone https://github.com/Jewel-7/Blog-render-React.git
+Go to terminal and type git clone https://github.com/Jewel-7/Login-React.git
 
 After cloning do npm install
 
