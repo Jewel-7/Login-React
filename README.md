@@ -3,9 +3,13 @@ Simple Login-signUp Website Made by using React
 It consits of a Home Page With Navbar And footer
 
 Navbar consists navlink to navigate back to Sign in and Login Pages
+
 Signin pages are used To create A Account
+
 Using the same credentials we can Login
+
 After Login there is  Landing Page that occurs in which There is a Logout Option
+
 Data is fetched from a backend server that was hosted in heroku
 
 ## To Run On Local Machine
