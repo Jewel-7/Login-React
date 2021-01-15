@@ -17,11 +17,11 @@ class SignUp extends Component {
       password: event.target.password.value,
       confirmPassword: event.target.confirmPassword.value,
     };
-    var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-    if (reg.test(event.target.email.value) == false) {
-      alert("Invalid Email Address");
-      return false;
-    }
+    // var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    // if (reg.test(event.target.email.value) == false) {
+    //   alert("Invalid Email Address");
+    //   return false;
+    // }
     if (event.target.password.value !== event.target.confirmPassword.value) {
       alert("passwords dont match");
     } else {
